@@ -1,0 +1,38 @@
+// Text to right of logo
+/*
+header.site-header {
+	position:relative;
+	width: 12em;
+	height:6em;
+	background-image:url('../img/logo.png');
+	background-repeat:no-repeat;
+	background-position: left top;
+
+  h1.site-header__text {
+  	position:absolute;
+  	right: 0;
+  	top: 50%;
+    transform: translate(0,-50%);
+  	margin:0;
+  }
+}
+*/
+
+
+// Text to bottom of logo
+header.site-header {
+	position:relative;
+	width: 6em;
+	height:8em;
+	background-image:url('../img/logo.png');
+	background-repeat:no-repeat;
+	background-position: center top;
+
+  h1.site-header__text {
+  	position:absolute;
+  	bottom:0;
+  	left: 50%;
+    transform: translate(-50%, 0);
+  	margin:0;
+  }
+}
